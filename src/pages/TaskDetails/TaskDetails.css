@@ -1,0 +1,82 @@
+.task-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9;
+}
+
+.task-content {
+  flex: 1;
+  padding: 40px 60px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.priority-badge {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.priority-badge.low {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.priority-badge.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.priority-badge.high {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.task-title {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+.info-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.info-row span {
+  color: #64748b;
+}
+
+.description-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 700px;
+}
+
+.description-card h4 {
+  color: #64748b;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.description-card p {
+  line-height: 1.8;
+  color: #334155;
+}

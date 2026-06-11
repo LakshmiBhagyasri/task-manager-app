@@ -1,0 +1,60 @@
+const initialTasks = [
+  {
+    id: 1,
+    title: "Research",
+    description: "User research helps you create better products.",
+    priority: "high",
+    status: "todo",
+    deadline: "2026-12-06",
+  },
+  {
+    id: 2,
+    title: "Brainstorming",
+    description: "Team brainstorming session.",
+    priority: "low",
+    status: "todo",
+    deadline: "2026-12-05",
+  },
+  {
+    id: 3,
+    title: "Wireframes",
+    description: "Create low fidelity wireframes.",
+    priority: "high",
+    status: "todo",
+    deadline: "2026-12-05",
+  },
+  {
+    id: 4,
+    title: "Onboarding Illustrations",
+    description: "Design onboarding graphics.",
+    priority: "low",
+    status: "inprogress",
+    deadline: "2026-12-05",
+  },
+  {
+    id: 5,
+    title: "Moodboard",
+    description: "Prepare design moodboard.",
+    priority: "low",
+    status: "inprogress",
+    deadline: "2026-12-06",
+  },
+  {
+    id: 6,
+    title: "Mobile App Design",
+    description: "Design mobile application.",
+    priority: "medium",
+    status: "done",
+    deadline: "2026-12-06",
+  },
+  {
+    id: 7,
+    title: "Design System",
+    description: "Build design system.",
+    priority: "medium",
+    status: "done",
+    deadline: "2026-12-06",
+  },
+]
+
+export default initialTasks

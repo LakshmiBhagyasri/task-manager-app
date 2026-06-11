@@ -1,0 +1,7 @@
+.task-column {
+  flex: 1;
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 12px;
+  min-height: 500px;
+}
